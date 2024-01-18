@@ -44,7 +44,7 @@ let idadeUsuario = prompt('Digite sua idade:');
 10ª - Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
 
 ```javascript
-let idadeUsuario = prompt('Digite sua idade:');
+let idadeUsuarios = prompt('Digite sua idade:');
 
 if (idadeUsuario >= 18) {
 alert('Pode tirar a habilitação!');
