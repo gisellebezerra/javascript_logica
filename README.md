@@ -6,8 +6,8 @@
  
 1º - Mostre um alerta com a mensagem "Boas vindas ao nosso site".
 ```javascript
-alert('Seja bem-vindo(a) ao site!');```
-
+alert('Seja bem-vindo(a) ao site!');
+```
 2ª - Declare uma variável chamada nome e atribua a ela o valor "Lua".
 ```javascript
 let nome = 'Lua';
