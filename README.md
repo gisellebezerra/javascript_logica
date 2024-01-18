@@ -6,8 +6,8 @@
  
 1º - Mostre um alerta com a mensagem "Boas vindas ao nosso site".
 ```javascript
-alert('Seja bem-vindo(a) ao site!');```
-
+alert('Seja bem-vindo(a) ao site!');
+```
 2ª - Declare uma variável chamada nome e atribua a ela o valor "Lua".
 ```javascript
 let nome = 'Lua';
@@ -44,7 +44,7 @@ let idadeUsuario = prompt('Digite sua idade:');
 10ª - Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
 
 ```javascript
-let idadeUsuario = prompt('Digite sua idade:');
+let idadeUsuarios = prompt('Digite sua idade:');
 
 if (idadeUsuario >= 18) {
 alert('Pode tirar a habilitação!');
