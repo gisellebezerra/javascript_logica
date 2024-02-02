@@ -1,44 +1,52 @@
-//1º - Mostre um alerta com a mensagem "Boas boas-vindas ao nosso site".
+/* 1 - Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". 
+ Caso contrário, mostre "Boa semana!". */
 
-alert('Seja bem-vindo(a) ao site!');
+ var dia = prompt('Qual é o dia da semana?');
+ dia = dia.toLowerCase();
 
-//2ª - Declare uma variável chamada nome e atribua a ela o valor "Lua".
+ 
+ if (dia == 'sábado' || dia == 'domingo'){
+    alert('Bom fim de semana!')
+ }
 
-let nome = 'Lua';
+ else {
+    alert('Boa semana!')
+ }
 
-//3ª - Crie uma variável chamada idade e atribua a ela o valor 25.
+ // 2 - Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
 
-let idade = 25;
+let numero = prompt('Digite um número');
 
-//4ª - Defina uma variável numeroDeVendas e atribua a ela o valor 50.
-
-let numeroDeVendas = 50;
-
-//5ª - Defina uma variável saldoDisponivel e atribua a ela o valor 1000.
-
-let saldoDisponivel =  1000;
-
-//6ª - Exiba um alerta com o texto "Erro! Preencha todos os campos.".
-
-alert('Erro! Preencha todos os campos.');
-
-//7ª - Declare uma variável chamada mensagemDeErro e atribua a ela o valor "Erro! Preencha todos os campos." Agora exiba um alerta com o valor da variável mensagemDeErro.
-
-let mensagemDeErro = 'Erro! Preencha todos os campos.';
-alert(mensagemDeErro);
-
-//8ª - Use um prompt para perguntar o nome do usuário e armazená-lo na variável nome.
-
-let nomeUsuario = prompt('Digite seu nome:');
-
-//9ª - Peça ao usuário para digitar sua idade usando um prompt e armazene-a na variável idade.
-
-let idadeUsuario = prompt('Digite sua idade:');
-
-//10ª - Agora, caso a idade seja maior ou igual a 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
-
-let idadeUsuarios = prompt('Digite sua idade:');
-
-if (idadeUsuario >= 18) {
-alert('Pode tirar a habilitação!');
+if (numero > 0 ){
+    alert('Número positivo!')
 }
+
+else {
+    if (numero != 0){
+        alert('Número negativo!')
+    }
+}
+
+//3 - Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
+
+let pontos = 104;
+console.log(pontos)
+
+if (pontos >= 100) {
+    alert('Parabéns, você venceu!');
+}
+
+else{
+    alert('Tente novamente para ganhar')
+}
+
+// 4 - Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+
+ let saldo = 1000;
+ alert(`Seu saldo é R$ ${saldo} reais`)
+
+ // 5 - Peça ao usuário para inserir seu nome usando prompt.Em seguida, mostre um alerta de boas-vindas usando esse nome.
+
+let nome = prompt('Digite seu nome');
+
+alert(`Bem-vindo(a) ${nome}!`)
