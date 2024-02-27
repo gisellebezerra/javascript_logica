@@ -1,4 +1,4 @@
-<h1>Exercício lógica de programação em JavaScript</h1>
+<h1>Exercício de lógica de programação em JavaScript</h1>
 
 <h2>JOGO SECRETO</h2>
 
